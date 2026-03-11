@@ -1,0 +1,11 @@
+li=[12,34,56,78]    
+print(li,type(li))
+print(len(li))
+print(li[2])
+print(li[::-1])
+li.append(90)
+print(li)   
+li.insert(2,'world')
+print(li)
+li.insert(10,'hello')
+print(li)
